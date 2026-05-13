@@ -82,7 +82,8 @@ Files in `logos/`:
 
 | File                        | Variant            | Use                                                     |
 |-----------------------------|--------------------|---------------------------------------------------------|
-| `forge-flame.png`           | Bildmarke (icon)   | Favicons, small placements, anywhere width < 80px       |
+| `forge-flame.png`           | Bildmarke, raster  | Favicons, small placements, anywhere width < 80px       |
+| `forge-flame.svg`           | Bildmarke, vector  | Print, large slides, animations, any size > ~512 px     |
 | `forge-wordmark.png`        | Schriftlogo (text + icon) | Hero, slide covers, signature placements         |
 | `logos/products/amp.png`    | AMP product mark   | AMP product page, Forge product pitch                   |
 | `logos/products/p4e.png`    | Paperclip4Enterprise mark | P4E product page, Forge product pitch            |

@@ -91,7 +91,8 @@ Files live under `logos/`, `favicons/`, `demos/`.
 
 | File | Use |
 |------|-----|
-| `logos/forge-flame.png` | Pure flame inside diamond (image mark). Hero, favicons, small marks, hero cinemagraph. |
+| `logos/forge-flame.png` | Pure flame inside diamond (image mark, raster). Hero, favicons, small marks, hero cinemagraph. |
+| `logos/forge-flame.svg` | Same image mark as vector. Use whenever sharp scaling matters: print, large slides, animations, any size above ~512 px. |
 | `logos/forge-wordmark.png` | Flame + "arconsis Forge" wordmark, no glow. Footer, dense layouts, top-left header in slides. |
 | `logos/forge-badge.png` | Compact badge for thumbnails, social profiles. |
 | `logos/products/amp.png`, `p4e.png`, `kap.png` | Master product logos (1.5 MB each). |
@@ -332,7 +333,8 @@ If a user opts out of motion, **everything** must stop: animations, parallax, au
 
 ```
 logos/
-├── forge-flame.png            ← image mark (flame in diamond)
+├── forge-flame.png            ← image mark (flame in diamond), raster
+├── forge-flame.svg            ← image mark, vector (1314×1314 viewBox)
 ├── forge-wordmark.png         ← wordmark, no glow
 ├── forge-badge.png            ← compact social/thumbnail badge
 └── products/
