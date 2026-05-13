@@ -98,9 +98,18 @@ Files in `logos/`:
 
 ### Favicons
 
-Generate from `forge-flame.png`:
-- 16×16 / 32×32 / 48×48 (multi-icon `.ico`)
-- 180×180 (`apple-touch-icon.png`)
+Available in `favicons/`:
+- `favicon.ico` (multi-icon, 16/32/48 px)
+- `favicon-16.png`, `favicon-32.png`
+- `apple-touch-icon.png` (180×180)
+
+All generated from `logos/forge-flame.png`.
+
+### Product demo videos
+
+Available in `demos/`:
+- `amp-demo.webm`
+- `p4e-demo.webm`
 
 ---
 
